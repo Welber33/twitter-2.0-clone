@@ -9,8 +9,6 @@ const Home: NextPage = () => {
         <title>Twitter 2.0</title>
       </Head>
 
-     <h1>Hello World</h1>
-
     <main>
       {/** Sidebar */} <Sidebar />
       {/** Feed */}
