@@ -1,5 +1,6 @@
 import { RefreshIcon } from '@heroicons/react/outline'
 import React from 'react'
+import { TweetBox } from './TweetBox'
 
 export function Feed() {
   return (
@@ -9,7 +10,9 @@ export function Feed() {
         <RefreshIcon className=" mr-5 mt-5 w-8 h-8 coursor-pointer text-twitter transition-all duration-500 ease-out hover:rotate-180 active:scale-125"/>
       </div>
 
-      {/** TweetBox */}
+      <div>
+        <TweetBox />
+      </div>
     </div>
   )
 }
