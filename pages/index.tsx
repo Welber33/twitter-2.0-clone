@@ -6,12 +6,12 @@ import { Widgets } from '../components/Widgets'
 
 const Home: NextPage = () => {
   return (
-    <div className=""> 
+    <div className="mx-auto lg:max-w-6xl max-h-screen"> 
       <Head>
         <title>Twitter 2.0</title>
       </Head>
 
-    <main>
+    <main className="grid grid-cols-9">
       <Sidebar />
       
       <Feed />

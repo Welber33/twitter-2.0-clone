@@ -14,11 +14,11 @@ import { SidebarRow } from './SidebarRow'
 
 export function Sidebar() {
   return (
-    <div className="flex flex-col">
+    <div className="col-span-2 flex flex-col items-center px-4 md:items-start">
       <img 
       src="https://links.papareact.com/drq" 
       alt=""
-      className="w-10 h-10"
+      className="w-10 h-10 m-3"
       />
 
       <SidebarRow Icon={HomeIcon} title="Home"/>
