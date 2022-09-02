@@ -1,7 +1,7 @@
 export interface Tweet extends TweetBody {
   _id: string
-  _created_at: string
-  _updated_at: string
+  _createdAt: string
+  _updatedAt: string
   _rev: string
   _type: 'tweet'
   blockTweet: boolean
