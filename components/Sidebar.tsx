@@ -24,29 +24,15 @@ export function Sidebar() {
       className="w-10 h-10 m-3"
       />
 
-      <SidebarRow Icon={HomeIcon} title="Home" onClick={function (): {} {
-        throw new Error('Function not implemented.')
-      } }/>
-      <SidebarRow Icon={HashtagIcon} title="Explore" onClick={function (): {} {
-        throw new Error('Function not implemented.')
-      } }/>
-      <SidebarRow Icon={BellIcon} title="Notifications" onClick={function (): {} {
-        throw new Error('Function not implemented.')
-      } }/>
-      <SidebarRow Icon={MailIcon} title="Messages" onClick={function (): {} {
-        throw new Error('Function not implemented.')
-      } }/>
-      <SidebarRow Icon={BookmarkIcon} title="Bookmarks" onClick={function (): {} {
-        throw new Error('Function not implemented.')
-      } }/>
-      <SidebarRow Icon={CollectionIcon} title="Lists" onClick={function (): {} {
-        throw new Error('Function not implemented.')
-      } }/>
+      <SidebarRow Icon={HomeIcon} title="Home" />
+      <SidebarRow Icon={HashtagIcon} title="Explore" />
+      <SidebarRow Icon={BellIcon} title="Notifications" />
+      <SidebarRow Icon={MailIcon} title="Messages" />
+      <SidebarRow Icon={BookmarkIcon} title="Bookmarks" />
+      <SidebarRow Icon={CollectionIcon} title="Lists" />
       <SidebarRow onClick={session ? signOut : signIn} Icon={UserIcon} title={session ? 'Sign Out' : 'Sign In'}/>
 
-      <SidebarRow Icon={DotsCircleHorizontalIcon} title="More" onClick={function (): {} {
-        throw new Error('Function not implemented.')
-      } }/>
+      <SidebarRow Icon={DotsCircleHorizontalIcon} title="More" />
 
     </div>
   )
