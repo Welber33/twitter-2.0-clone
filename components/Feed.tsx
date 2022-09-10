@@ -1,7 +1,7 @@
 import { RefreshIcon } from '@heroicons/react/outline'
 import React, { useState } from 'react'
 import { Tweet } from '../typings'
-import { TweetBox } from './TweetBox'
+import  TweetBox  from './TweetBox'
 import TweetComponent from '../components/Tweet'
 import { fetchTweets } from '../utils/fetchTweets'
 import toast from 'react-hot-toast'
@@ -36,7 +36,7 @@ export function Feed({ tweets: tweetsProp }: Props) {
       </div>
 
       <div>
-        <TweetBox />
+        <TweetBox setTweets={setTweets}/>
       </div>
 
       {/** Feed */}
