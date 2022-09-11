@@ -34,6 +34,9 @@ export function Sidebar() {
 
       <SidebarRow Icon={DotsCircleHorizontalIcon} title="More" />
 
+      <div className="mt-2 w-[220px] py-3 text-center text-[18px] font-bold text-white bg-twitter hover:bg-twitter_dark rounded-full">
+        Tweet
+      </div>
     </div>
   )
 }
